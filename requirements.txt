@@ -1,2 +1,3 @@
 pylossless[dash]
 streamlit
+setuptools
