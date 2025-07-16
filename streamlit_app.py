@@ -6,7 +6,7 @@ import threading
 def run_dash_app():
 
     app = get_app()#kind="jupyter")
-    app.run_server(port=8502)#mode="inline")
+    app.run(port=8502)#mode="inline")
 
     #app = Dash()
     #app.layout = html.Div("This is the Dash app inside the Streamlit app!")
